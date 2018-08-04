@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World Test Form</h1>
+    <form class="col-6" method="post" action="/formsubmissions">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputFirstname">FirstName</label>
+                <input type="text" name="firstName" class="form-control" placeholder="First name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputLastname">Last Name</label>
+                <input name="lastName" type="text" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputStreet">Address</label>
+                <input name="street" type="text" class="form-control" placeholder="Street/PO"></input>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputCity">City</label>
+                <input name="city" type="text" class ="form-control" placeholer="City"></input>
+            </div> 
+            <div class="form-group col-md-2">
+                <label for="inputState">Zip</label>
+                <input name= "state" type="text" class="form-control" placeholder="Zip"></input>
+            </div>  
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</body>
+</html>
